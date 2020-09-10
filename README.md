@@ -8,6 +8,8 @@
 
 git clone https://github.com/php-tzh/baiduImg-spider.git
 
+cd baiduImg-spider
+
 npm install
 
 npm run start --word=关键字 --num=图片下载数量 --dir=图片下载目录 --delay=图片下载延迟（ms）
