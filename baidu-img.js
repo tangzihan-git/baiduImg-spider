@@ -26,7 +26,7 @@ let options = {
     await page.goto(httpUrl)
     await page.focus('#kw')
     await page.keyboard.sendCharacter(options.word);//搜索词
-    await page.click('.s_search')
+    await page.click('.s_newBtn')
     //页面搜索跳转 执行的逻辑
     page.on('load',async ()=>{
         console.warn('正在为你检索【'+options.word+'】图片请耐心等待...');
